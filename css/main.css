@@ -93,14 +93,96 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+	background: linear-gradient(45deg, rgb(30,63,55) 0%, rgb(57,95,83) 100%) no-repeat scroll 0 0 transparent;
+	background-size: cover;
+	height: 100%;
+}
 
+.jumbotron {
+    color: #FFFFFF;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
 
+}
+.jumbotron h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.jumbotron p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+.jumbotron a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out 0s;
+}
+.jumbotron a:hover {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+}
+.masthead .btn {
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 19px 24px;
+    transition: none 0s ease 0s;
+}
+.masthead .btn:hover {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.masthead .btn:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+.jumbotron:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
+.masthead {
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+.masthead h1 {
+    font-size: 120px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+.masthead p {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+}
 
+.footer {
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+}
 
-
-
-
+.footer a {
+	color: #C0C0C0;
+}
 
 
 
